@@ -1,0 +1,131 @@
+* {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  backdrop-filter: blur(5px) saturate(150%);
+  -webkit-backdrop-filter: blur(5px) saturate(150%);
+}
+
+
+
+body {
+  z-index: 3;
+  background-image: url('COD_BG.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  /* background-color: #222; */
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #e9e6e66f;
+  position: relative; 
+  z-index: 1;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container {
+  position: relative; 
+  z-index: 1;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input input {
+  color: #dfdddd;
+  background-color: rgba(141, 140, 138, 0.164);
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  outline: none;
+  font-size: 18px;
+}
+
+.input button {
+  padding: 10px 20px;
+  border: none;
+  border-top-right-radius:8px;
+  border-bottom-right-radius:8px;
+  outline: none;
+  background-color: rgba(141, 140, 138, 0.164);
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.input button:hover {
+  background-color: #840d0d;
+}
+
+.list {
+  list-style: none;
+  color: #e8e6e6;
+}
+
+.list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #9a97976c;
+}
+
+.list li:last-child {
+  border-bottom: none;
+}
+
+.list li span {
+  flex: 1;
+  font-size: 18px;
+}
+
+.list li input {
+  margin-right: 10px;
+}
+
+.list li button {
+  padding: 5px 10px;
+  border: 1px solid rgba(113, 111, 111, 0);
+  border-radius:3px;
+  outline: none;
+  background-color: #77767600;
+  color: #dfdddd;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.list li button:hover {
+  color: rgba(194, 192, 192, 0.678);
+  background-color: #55555509;
+  border: 1px solid rgba(177, 175, 175, 0.774);
+}
+
+.list li.completed span {
+  text-decoration: line-through;
+  color: #9e9b9b89;
+}
+
+.list li input[type="checkbox"]:checked {
+  accent-color: gray;
+}
