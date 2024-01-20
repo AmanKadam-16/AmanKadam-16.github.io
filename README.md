@@ -13,4 +13,6 @@
 - Dark Grey Color Pallete
 - Inspired from Call of Duty Ghost.
 
-[Take me to the WebApp]([https://github.com/AmanKadam-16/AmanKadam-16.github.io](https://amankadam-16.github.io/)https://amankadam-16.github.io/).
+## Background Designed through Figma.
+
+[Take me to the WebApp](https://amankadam-16.github.io/).
