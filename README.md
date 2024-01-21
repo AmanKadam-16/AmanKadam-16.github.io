@@ -11,6 +11,7 @@
 - Add Task
 - Mark as Complete/Incomplete
 - Delete the completed Task.
+- Retains Memory(Tasks) even after Page Refresh.
 
 ## Theme - Minimalistic
 - Dark Grey Color Pallete
