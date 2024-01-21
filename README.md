@@ -2,7 +2,7 @@
 
 ## Creating a To Do List WebApp.
 
-![WebApp Screenshot](https://github.com/AmanKadam-16/AmanKadam-16.github.io/blob/main/SnapShot.png)
+![WebApp Screenshot](https://github.com/AmanKadam-16/AmanKadam-16.github.io/blob/main/Assets/SnapShot.png)
 
 ## Features
 - Add Task
