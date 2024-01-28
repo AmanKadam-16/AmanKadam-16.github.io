@@ -18,5 +18,3 @@
 - Inspired from Call of Duty Ghost.
 
 ## Background Designed through Figma.
-
-[Take me to the WebApp](https://amankadam-16.github.io/).
